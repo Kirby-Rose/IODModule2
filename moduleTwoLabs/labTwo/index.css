@@ -1,0 +1,133 @@
+/* I. Selectors */
+/* Put styles for questions 1.1, 1.2, 1.3 and 1.4 here */
+article {
+margin: 20px 0;
+padding: 20px;
+border: 1px solid black;
+}
+.style-me1 {
+    color: red;
+}
+
+#style-me2 {
+    color: blue;
+}
+.style-me1#style-me2 {
+    color: purple;
+}
+
+/* Put styles for questions 2.1 and 2.2 here */
+.my-descendants-are-styled p {
+    background-color: red;
+}
+
+.my-children-are-styled > p {
+    background-color: lightgreen;
+}
+
+/* II. Box model and common properties */
+/* Put styles for questions 1-8 here */
+.box {
+    background-color: rgb(168, 128, 206);
+    margin: 1em; 
+    border: rgb(235, 99, 31);
+    border-style: solid;
+    border-width: 5px;
+}
+
+    
+/* III. Positioning */
+/* Put styles for questions 1-3 here */
+
+.position-absolute {
+        background-color: rgb(169, 98, 236);
+        position: absolute;
+        top: 0;
+}
+
+.position-relative {
+    background-color: greenyellow;
+    position: relative;
+    left: 50;
+
+}
+
+
+.position-sticky {
+    background-color: brown;
+    position: sticky top;
+
+}
+
+/* IV. Styling text */
+/* Put styles for questions 1-10 here */
+
+.text-style {
+    color: rgb(4, 99, 99);
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: bold;
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+    text-align: right;
+    letter-spacing: 4px;
+    word-spacing: 8px;
+    text-transform: lowercase;
+    text-decoration: underline;
+
+}
+
+
+/* V. Styling links */
+/* Put styles for questions 1-3 here */
+
+a:link {
+    color: rgb(236, 132, 153);
+    font-size: larger;
+    font-weight: 400;
+    text-decoration: solid double 10px;
+}
+
+a:hover {
+    color: rgb(105, 13, 16);
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(111, 231, 231);
+    text-decoration: line-through;
+}
+
+a:focus {
+    color: blueviolet;
+}
+
+a:visited {
+    color: rgb(30, 221, 23);
+}
+
+
+/* VI. calc() */
+/* Put styles for questions 1-3 here */
+
+.calc-style {
+    width: 100vw;
+    background-color: rgb(245, 140, 140);
+    width: calc(100vw - 100px);
+
+}
+
+.fixed-width-col {
+    width: 350px;
+    display: inline-block;
+}
+
+.fluid-col {
+    display: inline-block;
+    width: calc(100vw - 490px);
+  
+
+}

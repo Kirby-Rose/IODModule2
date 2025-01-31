@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Module 2 Lab 1</title>
+  <meta charset="UTF-8" description="lab work" keywords="learning, Module2, html" 
+  author="Kirby" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    table, th, td {
+        border: 1px solid black;
+    }
+</style>
+
+
+</head>
+
+<body>
+  <header>
+    
+    <nav>
+      <!-- works like <a href="/index.html">Home</a> -->
+      <a href="/">Home</a>
+    </nav>
+  </header>
+
+  <main> 
+    <h1>My HTML Learning Journey</h1>
+    <article>
+      
+    <h2>Learning Elements - div, span, p, Pre, ul, ol, li, article</h2>
+
+    <div> Hello </div> 
+    <div> How are you? </div>
+    <div> Trying! </div>
+
+    <span>Sun</span>
+    <span>Beach</span>
+    <span>Sand</span>
+
+    <p>
+      p represents paragraph     without preserving      spacing
+      </p>
+      <pre>
+      Text in         a pre element
+      is displayed in a fixed-width
+      font, and it preserves
+      both      spaces and
+      line breaks
+      </pre>
+
+    <ul> Planets
+      <li>Mercury</li>
+      <li>Venus</li>
+      <li>Mars</li>
+      <li>Saturn</li>
+    </ul>
+
+    <ol>Dogs
+      <li>Labrador</li>
+      <li>Cavooldle</li>
+      <li>Wolf Hound 
+        <ol> 
+          <li>Manfred</li>
+          <li>Wolf</li></ol>
+      <li>Blue Heeler</li>
+    </ol>
+
+  </article>
+  <article>
+    <h2>HTML elements - Tables - table, thead, tbody, tr, td, th</h2>
+    <table>
+      <thead>
+      <tr>
+          <th colspan="2">First header</th>
+          <th>Second header</th>
+          
+      </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>First cell - first row</td>
+              <td>Second cell - first row</td>
+              <td>Second cell - first row</td>
+          </tr>
+          <tr>
+            <td>First cell - first row</td>
+            <td>Second cell - first row</td>
+            <td>Second cell - first row</td>
+        </tr>
+        <tr>
+          <td>Second cell - first row</td>
+          <td rowspan="2">Second cell - first row</td>
+      </tr>
+      </tbody>
+  </table>
+  
+  </article>
+
+  <article>
+    <h2>HTML elements - img, video, audio</h2>
+    <img src="https://picsum.photos/400/400" alt="Changing Picture" />
+    <img src="html_lab_image.jpg" alt="Sunrise above clouds" />
+
+    <figure>
+    <video controls width="250">
+      <source src="flower.webm" type="video/webm">
+      Sorry, your browser doesn't support embedded videos.
+    </video>
+    </figure>
+
+    <figure>
+      <audio controls src="t-rex-roar.mp3">
+        Your browser does not support the <code>audio</code> element.
+    </audio>
+    
+    </figure>
+
+
+  </article>
+      
+  </main>
+
+  <footer>Copyright &copy; 2024</footer>
+</body>
+
+</html>
