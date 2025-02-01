@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 4</title>
+    <style>
+    
+    * {
+        color: rgb(80, 52, 107);
+    }
+
+    body {
+       height: 100vh;
+       margin: 0;
+    }
+    section {
+        /* border: 1px solid rgb(247, 134, 247); */
+        flex: 2;
+    }
+    aside {
+        background-color: rgb(230, 198, 203);
+        /* border: 1px solid rgb(247, 245, 134); */
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #name-photo {
+        display: flex;
+        flex: 1.5;
+        flex-direction: column;
+        font-weight: bolder;
+    }
+
+    #photo {
+        margin: 0px 10px;
+    }
+
+    .title {
+        padding-left: 10px;
+    }
+
+    .info {
+        background-color: palevioletred;
+        width: 100%;
+    }
+
+    .info-text {
+        padding-left: 10px;
+    }
+
+    #contact-details {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    #skill-list {
+        display: flex;
+        flex: 1;
+    }
+
+    #left-column {
+        flex: 1;
+        justify-content: left;
+
+    }
+
+    #right-column {
+        flex: 2.5;
+        justify-content: center;
+    }
+
+
+    .details {
+        /* border: 1px solid rgb(134, 247, 177);  */
+        flex: 1;
+    }
+    #main-container {
+        /* border: 1px solid rgb(75, 199, 230); */
+        display:flex;
+        flex-direction: row;
+        height: 90%;
+    }
+    #right-container {
+        display: flex;
+        flex-direction: column;
+    }
+    footer {
+        display: flex;
+        height: 10%;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(230, 198, 203);
+    }
+
+    #right-container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2vw;
+        margin-top: 3.5vh;
+    }
+    .experience {
+        /* display: flex; */
+        width: 100%;
+        /* height: 25%, 25%, 50%; */
+    }
+
+    .exp-head {
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+
+    #box1 {
+        /* display: flex; */
+        height: 25%;
+    }
+    #box2 {
+        /* display: flex; */
+        height: 25%;
+    } 
+    #box3 {
+        /* display: flex; */
+        height: 50%;
+    }
+
+
+
+
+        </style>
+  </head>
+  <body>
+  <section id="main-container">
+    <aside> 
+        <div id="name-photo">
+        <h1 class="title"> Kirby Marks</h1>
+        <div id="photo">
+        <img src="Assets\img1.png" alt="Sun on a lake" width="200px" height="200px" style="border-radius: 100px;">
+        </div>
+        <h4 class="title">Software Developer</h4>
+        </div>
+
+        <div class="info">
+            <h1 class="info-text">Personal Info</h1>
+        </div> 
+        
+        <div id="contact-details">
+        <h4>Phone</h4>
+        <a href="tel:+777888999">777888999</a>
+        <h4>Email</h4>
+        <a href="blah@blahblah.com">blah@blahblah.com</a>
+        </div>
+
+        <div class="info">
+            <h1 class="info-text">Skills</h1>
+        </div>
+
+        <div id="skill-list">
+            <div id="left-column">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+            </div>
+            <div id="right-column">
+                <p>Intermediate</p>
+                <p>Intermediate</p>
+                <p>Still Learning</p>
+            </div>
+            
+        </div>
+
+    </aside>
+    <section id="right-container">
+        <div class="experience" id="box1"> 
+            <h1 class="exp-head">Experience</h1>
+            <h2 class="job-title"> Software Developer</h2>
+            <h3 class="w+w">Someplace from this date to that date</h3>
+            <ul>
+                <li>An excellent point</li>
+                <li>An excellent point</li>
+                <li>An excellent point</li>
+            </ul>
+
+        </div>
+        <div class="experience" id="box2">
+            <h2 class="job-title">Chief Mischief Maker</h2>
+            <h3 class="w+w">Someplace from this date to that date</h3>
+            <ul>
+                <li>An excellent point</li>
+                <li>An excellent point</li>
+                <li>An excellent point</li>
+            </ul>
+
+        </div>
+        <div class="experience" id="box3">
+            <h1 class="exp-head">Education</h1>
+            <h2 class="job-title"> Institute of Data - Software Development</h2>
+            <h3 class="w+w">Someplace from this date to that date</h3>
+            <ul>
+                <li>An excellent point</li>
+                <li>An excellent point</li>
+                <li>An excellent point</li>
+                <li>An excellent point</li>
+                <li>An excellent point</li>
+                <li>An excellent point</li>
+            </ul>
+            <h2 class="job-title"> Hogwarts</h2>
+            <h3 class="w+w">Someplace from this date to that date</h3>
+            <ul>
+                <li>An excellent point</li>
+                <li>An excellent point</li>
+                <li>An excellent point</li>
+               
+            </ul>
+
+        </div>
+
+    </section>
+  </section>
+  </body>
+
+  <footer>
+    Created by Kirby 2025
+  </footer>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <!-- works like <a href="/index.html">Home</a> -->
+      <a href="/">Home</a>
+    </nav>
+  </header>
+
+  <main>
+    <form method="POST" action="http://127.0.0.1:5500/form.html">
+      <div>
+        <label for="FName">First Name:</label>
+        <input type="text" id="FName">
+      </div>
+      <div>
+        <label for="LName">Last Name:</label>
+        <input type="text" id="LName">
+      </div>
+      <div>
+        <p>Favourite coding langauge?</p>
+         <input type="radio" id="html" name="favLang" value="HTML">
+         <label for="html">HTML</label><br>
+         <input type="radio" id="css" name="favLang" value="CSS">
+         <label for="css">CSS</label><br>
+         <input type="radio" id="javascript" name="favLang" value="JavaScript">
+         <label for="javascript">JavaScript</label>
+      </div>
+      <div>
+        <p>What type of vehicle do you have?</P>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> A bike!</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> A Car!</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Shoes">
+        <label for="vehicle3"> Walking Shoes!</label><br>
+      </div>
+      <div>
+        <p>What is your favourite ice-cream flavour?</p>
+        <select name="iceCream" id="iceCreamFlavours">
+          <option value="Vanilla">Vanilla</option>
+          <option value="Chocolate">Chocolate</option>
+          <option value="Strawberry">Strawberry</option>
+          <option value="Cookies">Cookies & Cream</option>
+          <option value="Matcha">Matcha</option>
+          <option value="Raspberry">Raspberry Sorbet</option>
+      </div>
+    </form>
+  
+    
+  </main>
+
+  <footer>Copyright &copy; 2024</footer>
+</body>
+
+</html>
